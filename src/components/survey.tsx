@@ -16,12 +16,14 @@ const SurveyComponent: React.FC<Props> = ({setStatus, setResults}) => {
 
   const handleSubmit = () => {
     const data = survey.getPlainData()
-    if (data[0].data!.length === json.elements[0].rows.length) {
-      setResults(data);
-      setStatus('results');
-    } else {
-      alert('Por favor, responde todas las preguntas para ver los resultados.')
-    }
+    // if (data[0].data!.length === json.elements[0].rows.length) {
+    //   setResults(data);
+    //   setStatus('results');
+    // } else {
+      //   alert('Por favor, responde todas las preguntas para ver los resultados.')
+      // }
+        setResults(data);
+        setStatus('results');
   }
 
   return (

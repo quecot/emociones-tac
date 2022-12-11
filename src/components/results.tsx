@@ -1,5 +1,6 @@
 import React from 'react';
 import { v4 as uuid } from 'uuid';
+import RadarGraph from './radar_graph';
 
 interface Props {
   setStatus: React.Dispatch<React.SetStateAction<string>>
@@ -23,16 +24,16 @@ const Results: React.FC<Props> = ({ setStatus, results }) => {
           <p>{`${groupedResults[emotion].name} - ${groupedResults[emotion].value}`}</p>
         </div>
       )
-    return elements; 
+    return groupedResults; 
   };
+
+  const groupedResults = getResults(results);
 
   return (
     <div className='results-div'>
       <h1>Resultados</h1>
       <p>A continuación se muestran los resultados:</p>
-      { 
-        getResults(results)
-      }
+      <RadarGraph results={groupedResults} />
       <button id="reset-button" type="button" onClick={() => setStatus('start')}>Volver a empezar</button>
     </div>
   )
