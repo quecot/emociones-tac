@@ -2,6 +2,7 @@
   border: 0;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .App {
@@ -22,7 +23,8 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 3rem;
 }
 
 button {
