@@ -160,5 +160,6 @@ export const json = {
       "isAllRowRequired": true,
     }
   ],
-  "showQuestionNumbers": "off"
+  "showNavigationButtons": false,
+  "showQuestionNumbers": "off",
 };

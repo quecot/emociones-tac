@@ -13,3 +13,60 @@
 .sd-table__cell--row-text {
   max-width: 10vw;
 }
+
+.welcome-div, .results-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+button {
+  padding: 1rem;
+  border-radius: 0.5em;
+  background-color: rgb(25, 179, 148);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 0 2px var(--primary, rgb(25, 179, 148));
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(25, 179, 148);
+  font-weight: bold;
+}
+
+.sd-radio__decorator {
+  background-color: rgb(25, 179, 148, 0.8) !important;
+}
+
+.sd-radio__decorator:hover {
+  background-color: rgb(25, 179, 148, 0.6) !important;
+}
+
+.sd-item__decorator::after {
+  background-color: white !important;
+}
+
+.survey {
+  background: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reset-button {
+  background-color: rgb(36, 145, 123);
+}
+
+#reset-button:hover {
+  background-color: white;
+  color: rgb(36, 145, 123);
+  box-shadow: 0 0 0 2px var(--primary, rgb(36, 145, 123));
+}
