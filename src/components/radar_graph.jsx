@@ -33,12 +33,9 @@ const data = {
   ],
 };
 
-interface Props {
-  results: any
-}
 
-const RadarGraph: React.FC<Props> = ({ results }) => {
-  Object.keys(results).forEach((emotion: string) => {
+const RadarGraph = ({ results }) => {
+  Object.keys(results).forEach((emotion) => {
     if (!data.labels.includes(results[emotion].name)) {
       data.labels.push(results[emotion].name);
       data.datasets[0].data.push(results[emotion].value);
