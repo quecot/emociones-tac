@@ -15,6 +15,12 @@
   max-width: 10vw;
 }
 
+@media (max-width: 768px) {
+  .sd-table__cell--row-text {
+    max-width: 100% !important;
+  }
+}
+
 .welcome-div, .results-div {
   height: 100%;
   width: 100%;
