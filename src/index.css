@@ -78,3 +78,8 @@ button:hover {
   color: rgb(36, 145, 123);
   box-shadow: 0 0 0 2px var(--primary, rgb(36, 145, 123));
 }
+
+.welcome-div > p {
+  max-width: 60rem;
+  text-align: center;
+}
