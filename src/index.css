@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .App {
@@ -29,7 +30,6 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 3rem;
 }
 
@@ -79,7 +79,22 @@ button:hover {
   box-shadow: 0 0 0 2px var(--primary, rgb(36, 145, 123));
 }
 
+.welcome-div > h1 {
+  padding-top: 8rem;
+}
+
 .welcome-div > p {
   max-width: 60rem;
   text-align: center;
+}
+
+.creative-commons {
+  position: absolute;
+  width: 100%;
+  bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  gap: 1rem;
 }
