@@ -29,7 +29,7 @@ export const json = {
       "rows": [
         {
           "value": "Alegria1",
-          "text": "¿Te sientes feliz y contento en este momento?"
+          "text": "¿Te sientes feliz y content@ en este momento?"
         },
         {
           "value": "Alegria2",
@@ -41,15 +41,15 @@ export const json = {
         },
         {
           "value": "Alegria4",
-          "text": "¿Te sientes lleno de energía?"
+          "text": "¿Te sientes llen@ de energía?"
         },
         {
           "value": "Sorpresa1",
-          "text": "¿Estás sorprendido por algo que acaba de suceder?"
+          "text": "¿Estás sorprendid@ por algo que acaba de suceder?"
         },
         {
           "value": "Sorpresa2",
-          "text": "¿Te sientes desconcertado o confundido ante algo?"
+          "text": "¿Te sientes desconcertad@ o confundid@ ante algo?"
         },
         {
           "value": "Sorpresa3",
@@ -65,7 +65,7 @@ export const json = {
         },
         {
           "value": "Miedo2",
-          "text": "¿Estás preocupado o nervioso por algo que pueda suceder en el futuro?"
+          "text": "¿Estás preocupad@ o nervios@ por algo que pueda suceder en el futuro?"
         },
         {
           "value": "Miedo3",
@@ -77,7 +77,7 @@ export const json = {
         },
         {
           "value": "Tristeza1",
-          "text": "¿Te sientes triste o deprimido?"
+          "text": "¿Te sientes triste o deprimid@?"
         },
         {
           "value": "Tristeza2",
@@ -89,11 +89,11 @@ export const json = {
         },
         {
           "value": "Tristeza4",
-          "text": "¿Te sientes abrumado o tienes ganas de llorar?"
+          "text": "¿Te sientes abrumad@ o tienes ganas de llorar?"
         },
         {
           "value": "Ira1",
-          "text": "¿Estás enojado o enfadado por algo o alguien?"
+          "text": "¿Estás enojad@ o enfadad@ por algo o alguien?"
         },
         {
           "value": "Ira2",
@@ -101,7 +101,7 @@ export const json = {
         },
         {
           "value": "Ira3",
-          "text": "¿Te sientes irritado o frustrado por algo en particular?"
+          "text": "¿Te sientes irritad@ o frustrad@ por algo en particular?"
         },
         {
           "value": "Ira4",
@@ -121,11 +121,11 @@ export const json = {
         },
         {
           "value": "Anticipación4",
-          "text": "¿Te sientes entusiasmado o emocionado por lo que viene en el futuro?"
+          "text": "¿Te sientes entusiasmad@ o emocionad@ por lo que viene en el futuro?"
         },
         {
           "value": "Confianza1",
-          "text": "¿Te sientes seguro de ti mismo en este momento?"
+          "text": "¿Te sientes segur@ de ti mism@ en este momento?"
         },
         {
           "value": "Confianza2",
@@ -133,7 +133,7 @@ export const json = {
         },
         {
           "value": "Confianza3",
-          "text": "¿Tienes la sensación de que puedes confiar en ti mismo para tomar las decisiones correctas?"
+          "text": "¿Tienes la sensación de que puedes confiar en ti mism@ para tomar las decisiones correctas?"
         },
         {
           "value": "Confianza4",
