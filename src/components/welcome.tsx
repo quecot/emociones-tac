@@ -14,7 +14,7 @@ const Welcome: React.FC<Props> = ({ setStatus }) => {
       </div>
       <div className="creative-commons">
         <p>2023 | Martina Bastida, Laia Casanovas, Ari Gotta i Francesc Vila | TAC | Pedagogía UAB</p>
-        <img src="src/assets/creative_commons.png" width="140px"></img>
+        <img src="public/creative_commons.png" width="140px"></img>
       </div>
     </div>
   )
