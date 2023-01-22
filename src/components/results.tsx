@@ -34,7 +34,7 @@ const Results: React.FC<Props> = ({ setStatus, results }) => {
     <div className='results-div'>
       <h1>Resultados</h1>
       <p>A continuación se muestran los resultados:</p>
-      <RadarGraph results={groupedResults} />
+      <RadarGraph className="radar-graph" results={groupedResults} />
       <button id="reset-button" type="button" onClick={() => setStatus('start')}>Volver a empezar</button>
     </div>
   )
