@@ -43,9 +43,7 @@ const Results: React.FC<Props> = ({ setStatus, results }) => {
   
   
   const groupedResults = getResults(results);
-  console.log(groupedResults)
   const mainResults = Object.values(groupedResults).sort((a: any, b: any) => (parseInt(a.value) < parseInt(b.value) ? 1 : -1)).slice(0, 2);
-  console.log(mainResults)
 
   return (
     <div className='results-div'>
