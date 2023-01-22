@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { v4 as uuid } from 'uuid';
 // @ts-ignore
 import RadarGraph from './radar_graph';
@@ -37,6 +37,10 @@ const Results: React.FC<Props> = ({ setStatus, results }) => {
     return emotionDefinitions.get(name);
   }
 
+  useEffect(() => {
+    document.documentElement.scrollTop = 0;
+  }, [])
+  
   
   const groupedResults = getResults(results);
   console.log(groupedResults)
