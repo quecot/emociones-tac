@@ -26,6 +26,10 @@
   padding-inline: 2rem;
 }
 
+.results-div {
+  padding-top: 2rem;
+}
+
 button {
   padding: 1rem;
   border-radius: 0.5em;
