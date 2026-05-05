@@ -15,7 +15,7 @@
     "react-dom": "19.0.0",
     "survey-core": "1.12.29",
     "survey-react-ui": "1.12.29",
-    "uuid": "11.1.0"
+    "uuid": "14.0.0"
   },
   "devDependencies": {
     "@types/react": "19.0.12",
