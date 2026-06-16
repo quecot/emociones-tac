@@ -1,7 +1,7 @@
 import React from "react";
-import {StylesManager, Model} from "survey-core";
+import {Model} from "survey-core";
 import {Survey} from "survey-react-ui";
-import "survey-core/defaultV2.css";
+import "survey-core/survey-core.css";
 import "../index.css";
 import { json } from "../json"
 
@@ -9,10 +9,9 @@ interface Props {
   setStatus: React.Dispatch<React.SetStateAction<string>>
   setResults: React.Dispatch<React.SetStateAction<any>>
 }
-
-StylesManager.applyTheme("defaultV2");
 const SurveyComponent: React.FC<Props> = ({setStatus, setResults}) => {
   const survey = new Model(json);
+  survey.applyTheme({ themeName: "defaultV2" });
 
   const handleSubmit = () => {
     const data = survey.getPlainData()
